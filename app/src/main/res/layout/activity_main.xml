@@ -28,19 +28,20 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Chuck" />
+                android:text="Chuck"
+                android:paddingRight="4dp"/>
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Charlie"
-                android:id="@+id/radioButton2" />
+                android:paddingRight="4dp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Steve"
-                android:id="@+id/radioButton" />
+                android:paddingRight="4dp" />
         </RadioGroup>
 
         <TextView
@@ -58,24 +59,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tim"
+                android:paddingRight="4dp"
                 android:id="@+id/answer_q_2_tim" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mike"
+                android:paddingRight="4dp"
                 android:id="@+id/answer_q_2_mike" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Brian"
+                android:paddingRight="4dp"
                 android:id="@+id/answer_q_2_brian" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Scott"
+                android:paddingRight="4dp"
                 android:id="@+id/answer_q_2_scott" />
         </LinearLayout>
 
@@ -107,13 +112,6 @@
             android:layout_marginTop="32dp"
             android:text="@string/submit_responses"
             android:onClick="checkResponses"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="32dp"
-            android:id="@+id/result_text_view" />
-
 
     </LinearLayout>
 
